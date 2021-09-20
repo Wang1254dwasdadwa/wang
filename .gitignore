@@ -1,18 +1,20 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+{
+  "difficulty" : "0x20000",
 
-# Other files and folders
-.settings/
+  "extraData"  : "",
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+  "gasLimit"   : "0x8000000",
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+  "alloc": {},
+
+  "config": {
+        "chainId": 15,
+
+        "homesteadBlock": 0,
+
+        "eip155Block": 0,
+
+        "eip158Block": 0
+
+    }
+
